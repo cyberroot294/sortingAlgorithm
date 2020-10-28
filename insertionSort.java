@@ -1,3 +1,4 @@
+package sortingAlgorithm;
 import java.util.Arrays;
 public class insertionSort {
     public static void main(String[] args) {
@@ -6,7 +7,6 @@ public class insertionSort {
         insertionSort1(arr);
     }
 
-    // insertion sort ini tidak bekerja jika ada elemen yang sama
     static void insertionSort1(int[] arr) {
         for (int j = 0; j < arr.length; j++) {
             int n = arr.length;

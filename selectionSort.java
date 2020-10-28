@@ -22,7 +22,6 @@ public class selectionSort {
             }
 
             // swapping
-            // int temp = 0;
             int temp = arr[i];
             arr[i] = min;
             arr[idMin] = temp; 
